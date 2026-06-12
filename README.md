@@ -135,7 +135,7 @@ To achieve uncompromised structural integrity and food safety without silicon ch
    * 孔位三：浮子連鎖閥：直徑 6mm 的鋼針，在 0.05 atm 表壓 的低閾值下被推高，物理卡死外蓋旋轉扣。
    * 孔位四：回水管入口：U 型回水機構的入口。
 * 4.4 雙層蓋夾層與氣凝膠外殼：
-* 8~12mm 被動夾層：位於內蓋與外蓋之間的 150~200 mL 常壓空腔。作為空氣彈簧緩衝與相變冷凝器。
+* 8~ 12mm 被動夾層：位於內蓋與外蓋之間的 150 ~200 mL 常壓空腔。作為空氣彈簧緩衝與相變冷凝器。
    * 氣凝膠保溫外殼：不承壓的輕量化外殼，內側貼低輻射鋁箔並包覆 10mm 氣凝膠保溫層（≤ 0.018 W/m⋅K）。安全閥直通管穿出處加裝防燙罩。
 * 4.5 流體回流與除濕優化：
 * U 型重力回水管：內徑 3 毫米，落差大於 20 毫米。行程中管內積水形成液封阻止高壓逆流，常壓冷卻期靠重力將冷凝水自動滴回外鍋。
@@ -154,8 +154,8 @@ The Thermodynamic Self-Regulating Brain
 By relying entirely on phase-change dynamics and solid-state thermal delays, the system establishes an automated closed-loop control sequence across two distinctly different operational modes:
 
 * 5.1 Pressurized Saturated Steam Mode (Sterilization):
-* Dual-Stage Thermal Throttle: Below 103°C, both Magnetic Switches are closed, pumping full 800W power into the pot. At ~103°C, Switch A trips due to its Curie point, instantly dropping power down to a 30~50W simmer line. This dampens the temperature slope, allowing heat to soak evenly and preventing catastrophic thermal overshoot.
-   * The Hysteresis Cycle: As the core reaches ~126°C, Magnetic Switch B hits its Curie threshold and completely cuts off all AC power. The system begins unpowered gliding, wrapped inside the 10mm aerogel insulation. Thanks to the engineered thermal delay of the bottom aluminum mass block, Switch B remains un-triggered until the internal temperature drops exactly 4~5°C (down to ~122°C), where it snaps back to re-ignite the element for a brief 10~20 second pulse.
+* Dual-Stage Thermal Throttle: Below 103°C, both Magnetic Switches are closed, pumping full 800W power into the pot. At ~ 103°C, Switch A trips due to its Curie point, instantly dropping power down to a 30~ 50W simmer line. This dampens the temperature slope, allowing heat to soak evenly and preventing catastrophic thermal overshoot.
+   * The Hysteresis Cycle: As the core reaches ~126°C, Magnetic Switch B hits its Curie threshold and completely cuts off all AC power. The system begins unpowered gliding, wrapped inside the 10mm aerogel insulation. Thanks to the engineered thermal delay of the bottom aluminum mass block, Switch B remains un-triggered until the internal temperature drops exactly 4~ 5°C (down to ~ 122°C), where it snaps back to re-ignite the element for a brief 10~20 second pulse.
 * 5.2 Air Convection Desiccation Mode (Dry Baking / Dehydrator):
 * Waterless Control Loop: Without water, the system transfers heat solely via air convection and radiation. The bottom plate temperature climbs rapidly. Switch A trips at 103°C as usual. When the localized air/metal interface hits 126°C, Switch B trips to cut the circuit.
    * Constant Low-Temp Baking: Because the aerogel boundary loses heat incredibly slowly, the trapped hot air maintains a stable gliding slope. As it cools to 122°C, Switch B resets and injects micro-pulses of heat. This locks the waterless system into a tight 122~126°C mechanical baking pocket indefinitely.
@@ -174,10 +174,10 @@ By relying entirely on phase-change dynamics and solid-state thermal delays, the
    * 自然遲滯循環：當核心區域爬升至約 126°C 時，磁控 B 到達居禮點閾值，徹底切斷所有交流電源。系統包裹在 10mm 氣凝膠保溫層內，開始無源滑行。得益於底部感溫鋁塊的熱阻延遲，磁控 B 會一直維持斷開，直到內部溫度精準跌落 4~5°C（降至約 122°C）時，才再次回吸復歸，進行 10~20 秒的短暫點補加熱。
 * 5.2 空氣對流脫水模式（無水乾烤/果乾機）：
 * 無水控制迴路：在不加水的狀態下，系統完全依靠空氣對流與輻射傳熱。鍋底溫度快速上升，磁控 A 一如既往在 103°C 跳開轉檔。當局部空氣與金屬交界處到達 126°C 時，磁控 B 跳開切斷電路。
-   * 恆溫低溫烘烤：由於氣凝膠邊界散熱極慢，受熱的空氣能維持穩定的滑行曲線。當冷卻至 122°C 時，磁控 B 回吸並注入微量脈衝熱能，將無水系統無限期鎖定在 122~126°C 的窄幅機械烘烤區間內。
+   * 恆溫低溫烘烤：由於氣凝膠邊界散熱極慢，受熱的空氣能維持穩定的滑行曲線。當冷卻至 122°C 時，磁控 B 回吸並注入微量脈衝熱能，將無水系統無限期鎖定在 122 ~126°C 的窄幅機械烘烤區間內。
 * 5.3 被動式相變壓力緩衝：
 * 鍋蓋空腔空氣彈簧：在蒸氣循環期間，短暫的超壓會衝開工作內閥（1.3 atm），飽和蒸氣湧入 8~12mm 的常壓外蓋夾層。
-   * 冷凝消能槽：湧入的蒸氣接觸到相對較冷的外蓋鋁箔襯裡時，瞬間發生相變（冷凝成液態水珠），使其自身的體積劇烈崩塌。夾層內原本的 150~200 mL 常壓空氣被像彈簧一樣壓縮，在不對外排氣的狀況下，將暫態壓力波動限制在 0.3 atm 以內。
+   * 冷凝消能槽：湧入的蒸氣接觸到相對較冷的外蓋鋁箔襯裡時，瞬間發生相變（冷凝成液態水珠），使其自身的體積劇烈崩塌。夾層內原本的 150 ~200 mL 常壓空氣被像彈簧一樣壓縮，在不對外排氣的狀況下，將暫態壓力波動限制在 0.3 atm 以內。
 * 5.4 環境熱動態自適應（Duty Cycle 物理調頻）：
 * 熱帶環境（40°C 環境）：內外溫差 $\Delta T$ 小，導致被動漏熱極慢（約 23W）。斷電滑行時間拉長，間歇點補週期拉長至 2~3 分鐘一次，物理上自動防止熱量過度累積。
    * 寒帶環境 (-10°C 環境）：內外溫差 $\Delta T$ 巨大，引發快速漏熱（約 36.5W）。滑行時間縮短，物理散熱速率迫使磁控 B 每隔 40~60 秒就回吸循環一次，純靠物理散熱指標完美對抗低溫環境。
@@ -190,14 +190,14 @@ By relying entirely on phase-change dynamics and solid-state thermal delays, the
 The Five Acts of Physical Transformation
 From the initial cold start to the final cooling and automatic water reclamation, the system steps through five distinct thermodynamic milestones in sequence:
 
-* 6.1 Phase 1: Sprint & Expulsion (0 to ~3 Minutes):
+* 6.1 Phase 1: Sprint & Expulsion (0 to ~ 3 Minutes):
 * Status: Outer pot contains water, inner pot contains loaded gear with its unpressurized shield lid. Timer knob is manually wound.
    * Dynamics: Both Magnetic Switches A and B are locked closed. The primary 800W hot plate fires at full throttle. Water quickly hits 100°C, flashing into high-volume steam that aggressively expels all cold residual air from the pot gaps. Once air is purged and internal pressure notches up to 0.05 atm gauge pressure, the float pin mechanically pops up, locking the outer cover rotation buckle firmly.
 * 6.2 Phase 2: Simmer Throttling & Pressurization (100°C to 125°C):
 * Status: Localized sensor-metal boundary climbs past boiling to ~103°C.
    * Dynamics: Magnetic Switch A reaches its Curie threshold and trips, opening its contact to cut the 800W line down to a 30~50W simmer. Thermal energy input drops sharply, flattening the temperature ramp slope. Pure steam inside the outer pot gently and evenly permeates around the inner pot. Total internal pressure and temperature climb in a highly linear, controlled manner toward the upper limit, preventing a violent pressure overshoot.
 * 6.3 Phase 3: Ceiling Cutoff (125°C to 127°C):
-* Status: Internal saturation region hits ~126°C. Gauge pressure reads ~1.3 atm. The Inner Work Valve is right at its cracking threshold but hasn't fully discharged.
+* Status: Internal saturation region hits ~ 126°C. Gauge pressure reads ~1.3 atm. The Inner Work Valve is right at its cracking threshold but hasn't fully discharged.
    * Dynamics: Magnetic Switch B hits its Curie point and snaps open, executing a hard physical cutoff of both heating circuits simultaneously. Total electrical input drops to zero. The system enters a state of pure, unpowered "ballistic gliding," heavily insulated by the 10mm aerogel blanket.
 * 6.4 Phase 4: Gliding Simmer & Passive Cushioning (Main Sterilization, 20~30 Mins):
 * Status: System rides the decay curve inside the insulated chamber.
